@@ -38,4 +38,6 @@ Route::resources([
     'questions' => 'QuestionController',
 ]);
 
+Route::get('/lobby', 'LobbyController@index')->name('lobby');
+
 
